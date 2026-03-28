@@ -1,0 +1,14 @@
+*.sage-jupyter2
+*.sage-chat
+.ipynb_checkpoints/
+*.term
+
+# Ignore editor/OS junk
+*.swp
+.DS_Store
+
+# Ignore terminal logs
+*.term
+
+# Ignore notebooks unless you specifically want to track them
+GitHub.ipynb
