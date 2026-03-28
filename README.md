@@ -86,7 +86,7 @@ Analysis did not make any direct measurements of environmental or health impacts
 
 
 ## File Organization:
-
+```
 project_root/
 ├── data_center_research/
 │ ├── data/ # Datasets used in the analysis
@@ -102,7 +102,7 @@ project_root/
 │ └── scripts/ # Reproducible workflow scripts
 │ └── README.txt
 └── README.md  # This file
-
+```
 ## Requirements: 
 
 R packages: tidyverse, ggthemes, sf
