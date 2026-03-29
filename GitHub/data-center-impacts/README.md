@@ -6,8 +6,7 @@ Air Pollutant Emissions Across Data Centers in Loudoun County, VA
 
 ## Summary
 
-This project examines air pollutant emissions from data centers in Loudoun County, Virginia, using regulatory emissions data, spatial layers, and data center locations. Analysis identifies key pollutants, emission patterns, and proximity to waterways, revealing clusters of emitting facilities and potential environmental exposure pathways for nearby water bodies.
-
+This project examines air pollutant emissions from data centers in Loudoun County, Virginia using regulatory emissions data, spatial layers, and data center locations. Analysis identifies key pollutants, emission patterns, and proximity to waterways, revealing clusters of emitting facilities and potential environmental exposure pathways for nearby water bodies.
 
 ## Rationale 
 
@@ -22,7 +21,6 @@ These pollutants are associated with environmental concerns such as smog formati
 - Where are spatial clusters of air pollutant–emitting data centers located within Loudoun County, Virginia?
 - What is the proximity of these data centers to nearby water bodies?
 
-
 ## Data Sources 
 
 Virginia Department of Environmental Quality (DEQ): Air sites and emissions data
@@ -32,6 +30,7 @@ Piedmont Environmental Council: Virginia Data Centers (ArcGIS FeatureServer)
 Loudoun County (OMAGI): County boundary and water bodies (GeoJSON)
 
 ## Methodology
+
 - Integrated multiple datasets: data center locations, regulated air sites, emissions data, and spatial layers (county boundary and water bodies).
 - Cleaned and standardized key variables (e.g., names, addresses) using tidyverse for accurate joins.
 - Filtered to include only existing Loudoun County data centers.
@@ -86,6 +85,7 @@ Analysis did not make any direct measurements of environmental or health impacts
 
 ## Folder Structure
 
+```
 project_root/
 ├── data_center_research/
 │ ├── data/ # Datasets used in the analysis
@@ -94,13 +94,16 @@ project_root/
 │ │ └── metadata/ # Metadata file describing the datasets
 │ ├── notebooks/ # Jupyter notebooks
 │ │ ├── archive/ # Previous drafts and exploratory notebooks
-│ │ ├── data_center_loudoun_county_final_2026_03_21.ipynb
+│ │ ├── data_center_loudoun_county_final.ipynb
 │ │ └── README.txt
 │ ├── outputs/ # Plots and maps
 │ │ └── README.txt
 │ └── scripts/ # Reproducible workflow scripts
 │ └── README.txt
 └── README.md
+```
+
+
 
 ## Requirements: 
 

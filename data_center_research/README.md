@@ -86,38 +86,29 @@ This repository is suitable for environmental researchers, data scientists, GIS 
 
 ## Acknowledging Limitations
 
--Emissions data represent only a subset of operating data centers.
--Loudoun County data include only a subset of total facilities.
--Analysis did not make any direct measurements of environmental or health impacts
+- Emissions data represent only a subset of operating data centers.
+- Loudoun County data include only a subset of total facilities.
+- Analysis did not make any direct measurements of environmental or health impacts
 
 ## File Organization:
 
-# The project is organized as follows:
-#
-# data_center_research/
-# ├─ data/          : Datasets used in the analysis
-# │  ├─ raw_data/   : Original input datasets
-# │  ├─ processed/  : Copies of the original datasets with standardized titles
-# │  └─ metadata/   : Metadata file describing the datasets
-# ├─ notebooks/     : Jupyter notebooks
-# │  ├─ archive/    : Previous drafts and exploratory notebooks
-# │  ├─ data_center_loudoun_county_final_2026_03_21.ipynb  : Main notebook
-# │  └─ README.txt
-# ├─ outputs/       : Analysis results
-# │  ├─ bar chart
-# │  ├─ two boxplots
-# │  ├─ two spatial maps
-# │  └─ README.txt
-# ├─ scripts/       : R scripts
-# │  ├─ various workflow scripts
-# │  └─ README.txt
-# └─ README.md      : Main project README
-#
-# Notes:
-# - Open notebooks from the `notebooks/` folder to run analyses.
-# - `data/processed` contains renamed copies of the original datasets.
-# - `outputs/` contains the visualizations generated from the analysis.
-# - Scripts in `scripts/` follow the workflow and include README.txt for documentation.
+```
+project_root/
+├── data_center_research/
+│ ├── data/ # Datasets used in the analysis
+│ │ ├── raw_data/ # Original input datasets
+│ │ ├── processed/ # Copies of original datasets with standardized titles
+│ │ └── metadata/ # Metadata file describing the datasets
+│ ├── notebooks/ # Jupyter notebooks
+│ │ ├── archive/ # Previous drafts and exploratory notebooks
+│ │ ├── data_center_loudoun_county_final.ipynb
+│ │ └── README.txt
+│ ├── outputs/ # Plots and maps
+│ │ └── README.txt
+│ └── scripts/ # Reproducible workflow scripts
+│ └── README.txt
+└── README.md
+```
 
 ## Requirements: 
 
