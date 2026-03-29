@@ -11,9 +11,9 @@ This project examines air pollutant emissions from data centers in Loudoun Count
 
 ## Rationale 
 
-As of 2026, Loudoun County hosts over 209 existing data centers and 43 additional facilities under construction, making it the largest concentration of data centers globally. These facilities rely on thousands of diesel backup generators, which emit air pollutants.
+As of 2026, Loudoun County hosts over 209 operational data centers, with an additional 43 facilities under construction, making it the largest concentration of data centers globally. These facilities rely on thousands of diesel backup generators, which emit air pollutants.
 
-These pollutants are associated with environmental concerns such as smog formation, acid rain, and nutrient pollution that may affect nearby waterways. Given the importance of these water bodies for drinking water supply, ecosystem health, and economic activity, understanding cumulative emissions from data centers and how closely these facilities are situated to waterways - many of which are already deemed impaired - can help inform planning and regulatory discussions as the industry grows.
+These pollutants are associated with environmental concerns, such as smog formation, acid rain, and nutrient deposition that may affect nearby waterways. Given the importance of these local water bodies for drinking water supply, ecosystem health, and economic activity, understanding the cumulative emissions from data centers and how closely these facilities are situated to waterways - many of which are already deemed impaired - can help inform planning and regulatory discussions as the industry grows.
 
 ## Research Questions
 
