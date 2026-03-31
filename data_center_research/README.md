@@ -87,19 +87,23 @@ Analysis did not make any direct measurements of environmental or health impacts
 
 
 ## File Organization:
-
-Folder Structure
+```
 project_root/
-│
-├── scripts/           # R scripts for cleaning, analysis, and visualization
-├── data/              # Raw and processed datasets
-│   ├── raw_data/      # Original input datasets
-│   └── processed/     # Cleaned and intermediate datasets
-├── outputs/           # Final visualizations and spatial maps
-├── notebooks/         # Main Jupyter notebooks
-│   └── archive/       # Previous drafts and exploratory notebooks
-└── README.txt         # This file
-
+├── data_center_research/
+│ ├── data/ # Datasets used in the analysis
+│ │ ├── raw_data/ # Original input datasets
+│ │ ├── processed/ # Copies of original datasets with standardized titles
+│ │ └── metadata/ # Metadata file describing the datasets
+│ ├── notebooks/ # Jupyter notebooks
+│ │ ├── archive/ # Previous drafts and exploratory notebooks
+│ │ ├── data_center_loudoun_county_final.ipynb
+│ │ └── README.txt
+│ ├── outputs/ # Plots and maps
+│ │ └── README.txt
+│ └── scripts/ # Reproducible workflow scripts
+│ └── README.txt
+└── README.md  # This file
+```
 ## Requirements: 
 
 R packages: tidyverse, ggthemes, sf
