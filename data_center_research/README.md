@@ -31,30 +31,27 @@ Piedmont Environmental Council: Virginia Data Centers (ArcGIS FeatureServer)
 Loudoun County (OMAGI): County boundary and water bodies (GeoJSON)
 
 ## Methodology
-Integrated multiple datasets: data center locations, regulated air sites, emissions data, and spatial layers (county boundary and water bodies).
-Cleaned and standardized key variables (e.g., names, addresses) using tidyverse for accurate joins.
-Filtered to include only existing Loudoun County data centers.
-Linked emissions data to air sites, then joined to data center locations using standardized addresses.
-Filled missing coordinates via manual geocoding.
-Created visualizations: bar charts and log-scaled box plots.
-Converted data to spatial features with sf and generated maps using ggplot2 to examine geographic patterns and emissions distribution. 
+- Integrated multiple datasets: data center locations, regulated air sites, emissions data, and spatial layers (county boundary and water bodies).
+- Cleaned and standardized key variables (e.g., names, addresses) using tidyverse for accurate joins.
+- Filtered to include only existing Loudoun County data centers.
+- Linked emissions data to air sites, then joined to data center locations using standardized addresses.
+- Filled missing coordinates via manual geocoding.
+- Created visualizations: bar charts and log-scaled box plots.
+- Converted data to spatial features with sf and generated maps using ggplot2 to examine geographic patterns and emissions distribution. 
 
 ## Instructions for Reproducing Project
 
-Clone the repository
-Install required R packages: tidyverse, sf, ggthemes, ggplot2
-Run the R scripts in order from the project root directory:
-scripts/01_clean_air_sites.R
-scripts/02_clean_emissions.R
-scripts/03_clean_data_centers.R
-scripts/04_join_air_emissions.R
-scripts/05_join_with_data_center.R
-scripts/06_analysis.R
-scripts/07_visualizations.R
-scripts/08_spatial_analysis.R
-Outputs (figures, spatial maps, and intermediate datasets) will be saved automatically in the outputs/ and data/processed/ folders.
-
-A clean, reproducible version of the analysis is available in scripts/analysis.R. Full exploratory workflows and narrative visualizations are provided in notebooks/main_notebook.ipynb.
+- Clone the repository
+- Install required R packages: tidyverse, sf, ggthemes, ggplot2
+- Run the R scripts in order from the project root directory:
+  - scripts/01_clean_air_sites.R
+  - scripts/02_clean_emissions.R
+  - scripts/03_clean_data_centers.R
+  - scripts/04_join_air_emissions.R
+  - scripts/05_join_with_data_center.R
+  - scripts/06_analysis.R
+  - scripts/07_visualizations.R
+  - scripts/08_spatial_analysis.R
 
 Notes:
 
@@ -63,11 +60,11 @@ All file paths in the scripts are relative to the project root directory.
 
 ## Key Findings: 
 
-52 data centers reported emissions in 2024.
-Nitrogen oxides and carbon monoxide were the highest gaseous emissions; PM10 and PM2.5 had similar levels.
-Most facilities emit multiple pollutants consistently.
-Emitting data centers cluster in eastern Loudoun County.
-Many are located near water bodies, suggesting potential exposure pathways.
+- 52 data centers reported emissions in 2024.
+- Nitrogen oxides and carbon monoxide were the highest gaseous emissions; PM10 and PM2.5 had similar levels.
+- Most facilities emit multiple pollutants consistently.
+- Emitting data centers cluster in eastern Loudoun County.
+- Many are located near water bodies, suggesting potential exposure pathways.
 
 ## Audience: 
 
@@ -75,15 +72,15 @@ This repository is suitable for environmental researchers, data scientists, GIS 
 
 ## Ethical Considerations
 
-Privacy: No personal data are included.
-Governance: All data are publicly available and ethically sourced.
-Bias: Potential biases in the datasets and analysis have been considered.
+- Privacy: No personal data are included.
+- Governance: All data are publicly available and ethically sourced.
+- Bias: Potential biases in the datasets and analysis have been considered.
 
 ## Acknowledging Limitations
 
-Emissions data represent only a subset of operating data centers.
-Loudoun County data include only a subset of total facilities.
-Analysis did not make any direct measurements of environmental or health impacts
+- Emissions data represent only a subset of operating data centers.
+- Loudoun County data include only a subset of total facilities.
+- Analysis did not make any direct measurements of environmental or health impacts
 
 
 ## File Organization:
