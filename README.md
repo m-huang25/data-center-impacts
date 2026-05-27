@@ -42,14 +42,6 @@ Loudoun County (OMAGI): County boundary and water bodies (GeoJSON)
 
 - Privacy: No personal data are included.
 - Governance: All data are publicly available and ethically sourced.
-- Bias: Potential biases in the datasets and analysis have been considered.
-
-## Acknowledging Limitations
-
-Emissions data represent only a subset of operating data centers.
-Loudoun County data include only a subset of total facilities.
-Analysis did not make any direct measurements of environmental or health impacts
-`
 
 ## License: 
 
