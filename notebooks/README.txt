@@ -14,3 +14,10 @@ Archived Notebooks: All previous drafts, exploratory versions, or intermediate n
 Notes
 Only the main notebook is intended for active use and sharing.
 Archived notebooks can provide context, historical analysis, or alternative approaches but are not required to run the project workflow.
+
+Acknowledging Limitations
+
+Emissions data represent only a subset of operating data centers.
+Loudoun County data include only a subset of total facilities.
+Analysis did not make any direct measurements of environmental or health impacts
+`
